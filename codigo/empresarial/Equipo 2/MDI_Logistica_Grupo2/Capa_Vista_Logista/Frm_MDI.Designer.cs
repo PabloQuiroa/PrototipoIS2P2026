@@ -39,6 +39,7 @@ namespace Capa_Vista_Logista
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuentaPorCobrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Pnl_Superior.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -81,7 +82,7 @@ namespace Capa_Vista_Logista
             this.menuStrip1.MaximumSize = new System.Drawing.Size(0, 409);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 802, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1169, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1289, 25);
             this.menuStrip1.TabIndex = 101;
             this.menuStrip1.Text = "MenuStrip";
             // 
@@ -97,12 +98,14 @@ namespace Capa_Vista_Logista
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.cerrarSesiónToolStripMenuItem.Text = "Salir";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
             // catálogosToolStripMenuItem
             // 
+            this.catálogosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cuentaPorCobrarToolStripMenuItem});
             this.catálogosToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.catálogosToolStripMenuItem.Name = "catálogosToolStripMenuItem";
             this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(83, 21);
@@ -137,6 +140,13 @@ namespace Capa_Vista_Logista
             this.asignacionesToolStripMenuItem.Size = new System.Drawing.Size(67, 21);
             this.asignacionesToolStripMenuItem.Text = "Ayudas";
             // 
+            // cuentaPorCobrarToolStripMenuItem
+            // 
+            this.cuentaPorCobrarToolStripMenuItem.Name = "cuentaPorCobrarToolStripMenuItem";
+            this.cuentaPorCobrarToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.cuentaPorCobrarToolStripMenuItem.Text = "Cuenta por cobrar ";
+            this.cuentaPorCobrarToolStripMenuItem.Click += new System.EventHandler(this.cuentaPorCobrarToolStripMenuItem_Click);
+            // 
             // Frm_MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,5 +177,6 @@ namespace Capa_Vista_Logista
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteadorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuentaPorCobrarToolStripMenuItem;
     }
 }

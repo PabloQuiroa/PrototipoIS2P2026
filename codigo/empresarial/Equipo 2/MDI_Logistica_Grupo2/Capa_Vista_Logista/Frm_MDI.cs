@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Vista_Mov_Inv;
 
 namespace Capa_Vista_Logista
 {
@@ -16,13 +17,18 @@ namespace Capa_Vista_Logista
         {
             InitializeComponent();
         }
+        
 
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_LOGIN LOGIN = new Frm_LOGIN();
-            LOGIN.ShowDialog();
+  
 
-            this.Close();
+        }
+
+        private void cuentaPorCobrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Mantenimiento_Tipo_Op_CXC CXC = new Frm_Mantenimiento_Tipo_Op_CXC();
+            CXC.ShowDialog();
         }
     }
 }
