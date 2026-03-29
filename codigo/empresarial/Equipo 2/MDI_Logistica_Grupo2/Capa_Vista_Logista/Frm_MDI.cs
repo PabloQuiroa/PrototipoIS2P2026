@@ -12,6 +12,7 @@ using Capa_Vista_LineaProd;
 using Capa_Vista_Ventas;
 using Mantenimiento_Proveedores;
 using Capa_Vista_Marca;
+using Capa_Vista_Empresa_Transporte;
 
 namespace Capa_Vista_Logista
 {
@@ -69,6 +70,12 @@ namespace Capa_Vista_Logista
             Frm_Marca Marca = new Frm_Marca();
             Marca.ShowDialog();
             
+        }
+
+        private void empresaTransporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Empresa_Transporte transporte = new Frm_Empresa_Transporte();
+            transporte.ShowDialog();
         }
     }
 }
