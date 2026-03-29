@@ -35,6 +35,9 @@
     <Reference Include="Capa_Controlador_Seguridad">
       <HintPath>..\..\..\..\componentes\seguridad\SeguridadMVC\SeguridadMVC\CapaControlador\bin\Debug\Capa_Controlador_Seguridad.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Empresa_Transporte">
+      <HintPath>..\..\Proceso4 Mantenimiento Transporte Sergio Izeppi\Capa_Vista_Empresa_Transporte\Capa_Vista_Empresa_Transporte\bin\Debug\Capa_Vista_Empresa_Transporte.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_LineaProd">
       <HintPath>..\..\Proceso5-MantenimientoLineaProducto\P5KenphLunaMantLinea\Capa_Vista_LineaProd\bin\Debug\Capa_Vista_LineaProd.dll</HintPath>
     </Reference>
