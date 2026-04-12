@@ -21,6 +21,7 @@ using Mantenimiento_cuentas_por_pagar;
 using Capa_Vista_OrdenProduccion;
 using Capa_vista_Factura;
 using Capa_Vista_OrdenDetalle;
+using Capa_Vista_Comprobantes;
 namespace Capa_Vista_Logista
 {
     public partial class Frm_MDI : Form
@@ -181,6 +182,24 @@ namespace Capa_Vista_Logista
             devolucion.ShowDialog();
         }
 
+<<<<<<< HEAD
+        private void comprobanteCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Comprobante_Compra com_compra = new Frm_Comprobante_Compra();
+            com_compra.ShowDialog();
+        }
+
+        private void comprobanteVentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Comprobante_Venta com_venta = new Frm_Comprobante_Venta();
+            com_venta.ShowDialog();
+        }
+
+        private void comprobanteProduccionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Comprobante_Produccion com_prod = new Frm_Comprobante_Produccion();
+            com_prod.ShowDialog();
+=======
         private void trasnportesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Tipo_Transporte tipo_Transporte = new Frm_Tipo_Transporte();
@@ -203,6 +222,7 @@ namespace Capa_Vista_Logista
         {
             Frm_Entrega_Compra entrega_Compra = new Frm_Entrega_Compra();
             entrega_Compra.ShowDialog();
+>>>>>>> 7a854db5bf034c096a7a2ee459a0f77d0e254ed1
         }
     }
 }
